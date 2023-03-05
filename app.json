@@ -62,22 +62,12 @@
       "value": "https://t.me/Mine_Bots"
     }
   },
-  "buildpacks": [
-        {
-            "url": "Scalingo/python"
-        },
-        {
-            "url": "Scalingo/nodejs"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
-    "stack": "container"
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
