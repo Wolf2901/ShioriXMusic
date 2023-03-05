@@ -64,10 +64,10 @@
   },
   "buildpacks": [
         {
-            "url": "heroku/python"
+            "url": "Scalingo/python"
         },
         {
-            "url": "heroku/nodejs"
+            "url": "Scalingo/nodejs"
         },
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
